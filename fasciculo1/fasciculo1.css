@@ -1,0 +1,108 @@
+/*= Imagens na cartilha ================ */
+
+@media (min-width: 768px){
+
+	article[class^="capitulo"] h2{padding-bottom: 10em;}
+
+	.capitulo1 {
+		background: url("ilustracoes/capitulo1.jpg") no-repeat 50% 1%;
+	}
+
+	.capitulo2 {
+		background: url("ilustracoes/capitulo2.jpg") no-repeat 50% 1%;
+	}
+
+	.capitulo3 {
+		background: url("ilustracoes/capitulo3.jpg") no-repeat 50% 3%;
+	}
+
+	.capitulo4 {
+		background: url("ilustracoes/capitulo4.jpg") no-repeat 50% 1%;
+	}
+
+	.lista-beneficiados-2 li,
+	.lista-beneficiados li {
+		position: relative;
+		margin-left: 200px;
+		padding: 40px 20px;
+	}
+
+		.lista-beneficiados li:nth-child(6),
+		.lista-beneficiados li:nth-child(9),
+		.lista-beneficiados li:nth-child(11),
+		.lista-beneficiados-2 li:nth-child(2),
+		.lista-beneficiados-2 li:nth-child(4),
+		.lista-beneficiados-2 li:nth-child(5),
+		.lista-beneficiados-2 li:nth-child(7),
+		.lista-beneficiados-2 li:nth-child(8),
+		.lista-beneficiados-2 li:nth-child(10),
+		.lista-beneficiados-2 li:nth-child(13){
+			margin-left: 0px;
+		}
+
+		.lista-beneficiados-2 li:before,
+		.lista-beneficiados li:before{
+			position: absolute;
+			width: 140px;
+			height: 100px;
+			top: 10%;
+			left: -200px;
+		}
+
+			.lista-beneficiados li:nth-child(1):before {
+				content: url("ilustracoes/capitulo3-item1-mulher-cega.png");
+			}
+
+			.lista-beneficiados li:nth-child(2):before {
+				content: url("ilustracoes/capitulo3-item2-homem-cego-sem-bracos.png");
+			}
+
+			.lista-beneficiados li:nth-child(3):before {
+				content: url("ilustracoes/capitulo3-item3-homem-paralisia-cerebral.png");
+			}
+
+			.lista-beneficiados li:nth-child(4):before {
+				content: url("ilustracoes/capitulo3-item4-homem-deficiencia-motora.png");
+			}
+
+			.lista-beneficiados li:nth-child(5):before {
+				content: url("ilustracoes/capitulo3-item5-jovem-tetraplegica.png");
+			}
+
+			.lista-beneficiados li:nth-child(7):before {
+				content: url("ilustracoes/capitulo3-item7-senhor-surdocego.png");
+			}
+
+			.lista-beneficiados li:nth-child(8):before {
+				content: url("ilustracoes/capitulo3-item8-mulher-baixa-visao.png");
+			}
+
+			.lista-beneficiados li:nth-child(10):before {
+				content: url("ilustracoes/capitulo3-item10-jovem-deficiencia-auditiva.png");
+			}
+
+			.lista-beneficiados-2 li:nth-child(1):before {
+				content: url("ilustracoes/capitulo3-item11-homem-destro-tendinite.png");
+			}
+
+			.lista-beneficiados-2 li:nth-child(3):before {
+				content: url("ilustracoes/capitulo3-item12-casal-idosos.png");
+			}
+
+			.lista-beneficiados-2 li:nth-child(6):before {
+				content: url("ilustracoes/capitulo3-item13-crianca.png");
+			}
+
+			.lista-beneficiados-2 li:nth-child(9):before {
+				content: url("ilustracoes/capitulo3-item14-homem-meia-idade.png");
+			}
+
+			.lista-beneficiados-2 li:nth-child(11):before {
+				content: url("ilustracoes/capitulo3-item15-usuario.png");
+			}
+
+			.lista-beneficiados-2 li:nth-child(12):before {
+				content: url("ilustracoes/capitulo3-item16-mulher-atrasada.png");
+			}
+
+}

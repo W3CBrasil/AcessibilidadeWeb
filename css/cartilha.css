@@ -1,0 +1,258 @@
+* {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/* tipografia / fontes ================ */
+
+@font-face {
+	font-family: 'Linux Libertine';
+	src: url('fontes/linlibertine_re-4.7.5-webfont.eot');
+	src: local('Linux Libertine'), url('fontes/linlibertine_re-4.7.5-webfont.woff') format('woff'), url('fontes/linlibertine_re-4.7.5-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*= Estilos gerais ================ */
+	html {
+		overflow-y: scroll;
+	}
+
+	@media (min-width: 768px){
+		body {
+			max-width: 960px;
+			margin: 0 auto;
+		}
+	}
+
+	body {
+		font: large/1.556 Verdana, Helvetica, sans-serif;
+		word-spacing: 0.1em;
+		padding-bottom: 2em;
+	}
+
+	p, ol, ul {
+		font-size: large;
+		margin: 1.556em 0;
+	}
+
+	ol, ul {
+		padding-left: 2em;
+	}
+
+	sup {
+		font-variant: small-caps;
+		vertical-align: text-top;
+	}
+
+	blockquote{
+		color: #333;
+		padding: 2em;
+	}
+
+	/* ancoras / links */
+
+	a {
+		text-decoration: none;
+	}
+
+	a:link {
+		color: rgba(0,77,101,1);
+		border-bottom: 1px dotted;
+	}
+
+	a:visited {
+		color: rgba(0,77,101,0.7);
+		border-bottom: 1px dotted;
+	}
+
+	a:link:hover, a:visited:hover, a:focus {
+		color: rgba(0,77,101,0.7);
+		border-bottom: 1px solid;
+	}
+
+	a:focus {
+		background: rgba(255,255,153,1);
+	}
+
+	/* headers / titulos / cabecalhos */
+
+	h1, h2, h3, h4, caption, thead th {
+		font-weight: normal;
+		text-transform: uppercase;
+	}
+
+	h1, h2, h3 {
+		font: large/1.556 "Linux Libertine", Palatino, "Palatino Linotype", "Book Antiqua", Georgia, "Times New Roman", serif;
+		text-shadow: 0 0 1px #667;
+	}
+
+	h1 {
+		font-size: 266.7%;
+		line-height: 1.1;
+		text-align: center;
+		width: 100%;
+		margin: 1.49em 0;
+	}
+
+	h2 {
+		font-size: 210%;
+		line-height: 1.3125;
+		margin: 1.167em 0;
+		text-align: center;
+		clear: both;
+	}
+
+	h3 {
+		font-size: x-large;
+		line-height: 1.167;
+		margin: 1.556em 0;
+		text-align: center;
+	}
+
+	/* grifo para lingua estrangeira */
+	.le {
+		font-style: italic;
+	}
+
+	/* estilo para lista não ordenada <ul> com travessão */
+	.lista-t {
+		list-style: none;
+	}
+
+		ul.lista-t > li:before {
+		    display: inline-block;
+		    content: "-";
+		    width: 1em;
+		    margin-left: -1em;
+		}
+
+	/* estilo para lista ordenada <ol> com parenteses */
+
+	ol.lista-p > li:before {
+	  	display: inline-block;
+	    content: ")";
+	    width: 1em;
+	    margin-left: -0.7em;*
+	}
+
+	/* lista ordenada alfabeticamente */
+
+	.lista-a {
+		list-style: lower-alpha;
+	}
+
+	/* lista de definições */
+	dl {
+		overflow: auto;
+	}
+
+	dt {
+		clear: left;
+	}
+
+		dt:after {
+			content: "-";
+			padding:0 0.5em;
+		}
+
+	dd,dt {
+		float: left;
+	}
+
+	/* tabelas */
+	table {
+		border-collapse: collapse;
+		border-spacing: 0;
+		margin-bottom: 4em;
+	}
+
+	table caption{
+		color: #2f647c;
+		font-size: 160%;
+		text-align: left;
+	}
+
+	tbody tr:nth-child(odd){
+		background: #e4f1f6;
+	}
+
+	td{
+		border-bottom: 1px solid #bddcea;
+		padding: 5px;
+		height: 80px;
+	}
+
+
+/* ===================================== */
+
+
+/* indice */
+
+.indice {
+	list-style: none;
+}
+
+.referencias li {
+	margin-bottom: 2em;
+}
+
+.creditos {
+	text-align: center;
+}
+
+.licenca {
+	text-align: left;
+}
+
+.p-azul {
+	background: #e4f1f6;
+	padding: 20px;
+}
+
+.notas-rodape {
+	padding-top: 0.2em;
+	position: relative;
+}
+
+	.notas-rodape:before{
+		content: '';
+		border-top: 2px solid #333;
+		position: absolute;
+		top: 0;
+		width: 160px;
+	}
+
+	.notas-rodape li{
+		font-size: small;
+	}
+
+.assinatura {
+	text-align: right;
+}
+
+.agradecimento blockquote{
+	font-style: italic;
+}
+
+.publicacao {
+	background: url("../imagens/w3c-brasil-nicbr-cgibr.png") no-repeat 50% 4em;
+}
+
+.publicacao h2{
+	padding-bottom: 2em;
+}
+
+@media (min-width: 768px){
+
+	.capa {
+		background: url("../imagens/capa-cartilha.png") no-repeat 50% 80%;
+	}
+
+		.capa h2 {
+			margin-bottom: 0;
+			padding-bottom: 15em;
+		}
+}
