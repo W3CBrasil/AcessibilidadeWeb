@@ -8,6 +8,8 @@ Não servirá como repositório de conteúdo, porém contribuições para ajuste
 
 Ajustes de pontuação serão aceitos por intermédio de moderação e aprovação dos autores.
 
+Serão produzidos 7 fascículos no total.
+
 ##Publicação
 A cada 15 dias as alterações serão publicadas no endereço: 
 http://www.w3c.br/pub/Materiais/PublicacoesW3C/cartilha-w3cbr-acessibilidade-web-fasciculo-I.html
