@@ -21,3 +21,6 @@ http://www.w3c.br/pub/Materiais/PublicacoesW3C/cartilha-w3cbr-acessibilidade-web
 ##Mais publicações em: 
 http://www.w3c.br/Materiais/PublicacoesW3C
 
+##Contribuindo e Padronizando o Código
+Utilizamos na Cartilha o plugin [EditorConfig](http://editorconfig.org/) com o intuito de evitar diferenças no que diz respeito à identação do código.
+Caso não possua o plugin faça o [download](http://editorconfig.org/#download) direto na página oficial para o seu editor preferido.
