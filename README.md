@@ -1,4 +1,4 @@
-#Catilha de Acessibilidade na Web
+#Cartilha sobre Acessibilidade na Web
 
 ##Objetivo
 Este repositório tem a finalidade de criar um código fonte acessível e responsivo para a versão em HTML para a Cartilha de Acessibilidade na Web.
