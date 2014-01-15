@@ -4,7 +4,7 @@
 Este repositório tem a finalidade de criar um código fonte acessível e responsivo para a versão em HTML para a Cartilha de Acessibilidade na Web.
 
 ## Informações
-Não servirá como repositório de conteúdo, porém contribuições para ajustes de erros de digitação serão aceitos, por exemplo: letra minúscula onde deveria ser maiúscula, palavra separada por travessão etc.
+Não servirá como repositório de conteúdo, porém contribuições para ajustes de erros de digitação serão aceitos, por exemplo: letra minúscula onde deveria ser maiúscula, palavra separada por travessão, etc.
 
 Ajustes de pontuação serão aceitos por intermédio de moderação e aprovação dos autores.
 
