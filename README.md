@@ -16,7 +16,7 @@ Caso não possua o plugin faça o [download][2] direto na página oficial para o
 
 ## 3) Publicação
 A cada 15 dias as alterações serão publicadas no endereço: 
-http://www.w3c.br/pub/Materiais/PublicacoesW3C/cartilha-w3cbr-acessibilidade-web-fasciculo-I.html
+http://acessibilidade.w3c.br/cartilha/fasciculo1/
 
 ### 3.1) Publicação original
 A primeira edição da publicação original está disponível em PDF no endereço:
