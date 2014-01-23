@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="pt_BR">
+<html lang="pt-BR">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,38 +8,40 @@
 </head>
 <body>
 	<header class="capa" role="banner">
-		<h1>Cartilha de Acessibilidade na Web</h1>
-		<h2>W3C Brasil</h2>
+		<h1 role="heading">Cartilha de Acessibilidade na Web</h1>
+		<h2 role="heading">W3C Brasil</h2>
 	</header>
-	<article id="indice" class="indice p-azul" role="navigation">
-		<h2>Índice</h2>
-		<ol class="indice" role="menu">
-			<li><a href="fasciculo1/" role="menuitem" aria-label="Acessar o Fascículo 1: Introdução">Fascículo 1: Introdução</a></li>
-		</ol>
+	<article id="indice" class="indice p-azul">
+		<h2 role="heading">Índice</h2>
+		<nav role="navigation">
+			<ol class="indice" role="menu">
+				<li><a href="fasciculo1/" role="menuitem" aria-label="Acessar o Fascículo 1: Introdução">Fascículo 1: Introdução</a></li>
+			</ol>
+		</nav>
 	</article>
 	<footer class="creditos">
 		<section class="licenca">
-			<h2>Licença</h2>
+			<h2 role="heading">Licença</h2>
 			<p>
-				<img src="imagens/creative-commons.png" width="20%" alt="Creative Commons">
+				<img src="imagens/creative-commons.png" alt="Creative Commons" class="creative-commons-ico" role="img">
 			</p>
 			<p>
 				Atribuição: uso não comercial 3.0 Brasil
 			</p>
-			<h3>Você pode:</h3>
-			<ul>
-				<li>
+			<h3 role="heading">Você pode:</h3>
+			<ul role="list">
+				<li role="listitem">
 					copiar, distribuir, exibir e executar a obra sob as seguintes condições:
 					<ul class="lista-t">
-						<li>ATRIBUIÇÃO: Você deve dar crédito ao autor original, da forma especificada pelo autor ou licenciante.</li>
-						<li>USO NÃO COMERCIAL: Você não pode utilizar esta obra com finalidades comerciais.</li>
+						<li role="listitem">ATRIBUIÇÃO: Você deve dar crédito ao autor original, da forma especificada pelo autor ou licenciante.</li>
+						<li role="listitem">USO NÃO COMERCIAL: Você não pode utilizar esta obra com finalidades comerciais.</li>
 					</ul>
 				</li>
 			</ul>
 			<p>Aviso: Para qualquer reutilização ou distribuição, devem ser deixados claros a terceiros os termos da licença à qual se encontra submetida esta obra.</p>
 		</section>
 		<section class="publicacao">
-			<h2>Uma publicação</h2>
+			<h2 role="heading">Uma publicação</h2>
 
 			<p>Comitê Gestor da Internet no Brasil – CGI.br <br>
 			<a href="http://www.cgi.br" role="link">www.cgi.br</a></p>
@@ -56,20 +58,20 @@
 			<a href="http://www.3c.br" role="link">www.w3c.br</a></p>
 			<p>GERENTE GERAL: Vagner Diniz</p>
 		</section>
-		<section>
-			<h2>Parceiros</h2>
+		<section role="region">
+			<h2 role="heading">Parceiros</h2>
 			<p>
-				<img src="imagens/prefeitura-sp.png" height="99" width="122" alt="Prefeitura de São Paulo">
-				<img src="imagens/estado-sp.png" height="93" width="105" alt="Estado de São Paulo">
-				<img src="imagens/slti-mp-gov.png" height="80" width="523" alt="Secretaria de Logística e Tecnologia da Informação, Ministério do Planejamento, Governo Federal">
+				<img src="imagens/prefeitura-sp.png" height="99" width="122" alt="Prefeitura de São Paulo" role="img">
+				<img src="imagens/estado-sp.png" height="93" width="105" alt="Estado de São Paulo" role="img">
+				<img src="imagens/slti-mp-gov.png" height="80" width="523" alt="Secretaria de Logística e Tecnologia da Informação, Ministério do Planejamento, Governo Federal" role="img">
 			</p>
 		</section>
-		<section>
-			<h2>Apoio</h2>
+		<section role="region">
+			<h2 role="heading">Apoio</h2>
 			<p>
-				<img src="imagens/aacd.png" height="74" width="73" alt="AACD">
-				<img src="imagens/abradi.png" height="74" width="104" alt="ABRADi">
-				<img src="imagens/brasscom.png" height="74" width="172" alt="Brasscom">
+				<img src="imagens/aacd.png" height="74" width="73" alt="AACD" role="img">
+				<img src="imagens/abradi.png" height="74" width="104" alt="ABRADi" role="img">
+				<img src="imagens/brasscom.png" height="74" width="172" alt="Brasscom" role="img">
 			</p>
 		</section>
 	</footer>
