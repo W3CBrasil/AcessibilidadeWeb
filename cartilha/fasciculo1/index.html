@@ -1,7 +1,7 @@
 <!doctype html>
-<html lang="pt_BR">
+<html lang="pt-BR">
 <head>
-	<meta charset="UTF-8">
+	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Cartilha de Acessibilidade na Web - W3C Brasil - Fascículo 1: Introdução.</title>
 	<link rel="icon" href="imagens/favicon.ico" type="image/x-icon">
@@ -27,16 +27,18 @@
 			18 de abril de 2013
 		</p>
 	</article>
-	<article id="indice" class="indice" role="navigation">
+	<article id="indice" class="indice">
 		<h2>Índice</h2>
-		<ol class="indice" role="menu" aria-label="Escolha na lista abaixo qual capítulo você deseja.">
-			<li><a href="#prefacio" role="menuitem" aria-label="Ir para o Prefácio">Prefácio</a></li>
-			<li><a href="#capitulo1" role="menuitem" aria-label="Ir para o Capítulo 1: Introdução">Capítulo 1: Introdução</a></li>
-			<li><a href="#capitulo2" role="menuitem" aria-label="Ir para o Capítulo 2: O que é acessibilidade na web.">Capítulo 2: O que é acessibilidade na <span class="le">web</span></a></li>
-			<li><a href="#capitulo3" role="menuitem" aria-label="Ir para o Capítulo 3: Quem são os beneficiados com uma web acessível?">Capítulo 3: Quem são os beneficiados com uma <span class="le">web</span> acessível?</a></li>
-			<li><a href="#capitulo4" role="menuitem" aria-label="Ir para o Capítulo 4: Referências para consulta">Capítulo 4: Referências para consulta</a></li>
-			<li><a href="#referencias" role="menuitem" aria-label="Ir para o Capítulo 5: Referências bibliográficas">Referências bibliográficas</a></li>
-		</ol>
+		<nav role="navigation">
+			<ol class="indice" role="menu" aria-label="Escolha na lista abaixo qual capítulo você deseja.">
+				<li><a href="#prefacio" role="menuitem" aria-label="Ir para o Prefácio">Prefácio</a></li>
+				<li><a href="#capitulo1" role="menuitem" aria-label="Ir para o Capítulo 1: Introdução">Capítulo 1: Introdução</a></li>
+				<li><a href="#capitulo2" role="menuitem" aria-label="Ir para o Capítulo 2: O que é acessibilidade na web.">Capítulo 2: O que é acessibilidade na <span class="le">web</span></a></li>
+				<li><a href="#capitulo3" role="menuitem" aria-label="Ir para o Capítulo 3: Quem são os beneficiados com uma web acessível?">Capítulo 3: Quem são os beneficiados com uma <span class="le">web</span> acessível?</a></li>
+				<li><a href="#capitulo4" role="menuitem" aria-label="Ir para o Capítulo 4: Referências para consulta">Capítulo 4: Referências para consulta</a></li>
+				<li><a href="#referencias" role="menuitem" aria-label="Ir para o Capítulo 5: Referências bibliográficas">Referências bibliográficas</a></li>
+			</ol>
+		</nav>
 	</article>
 	<article id="prefacio" class="prefacio" role="article">
 		<h2>Prefácio</h2>
@@ -314,12 +316,12 @@
 			<table>
 				<caption>Artigos</caption>
 				<colgroup>
-					<col width="4%">
-					<col width="">
-					<col width="4%">
-					<col width="4%">
-					<col width="4%">
-					<col width="4%">
+					<col>
+					<col>
+					<col>
+					<col>
+					<col>
+					<col>
 				</colgroup>
 				<thead>
 					<tr>
@@ -327,8 +329,7 @@
 						<th id="n+h">Nome e <span class="le">hiperlink</span></th>
 						<th id="a_p" colspan="4">Perfis</th>
 					</tr>
-				</thead>
-				<tfoot />
+				</thead>				
 				<tbody>
 					<tr>
 						<td headers="a_numero">01</td>
@@ -436,7 +437,7 @@
 					</tr>
 					<tr>
 						<td headers="a_numero">14</td>
-						<td headers="n+h"><strong>Recomendações de acessibilidade para conteúdo Web (WCAG) 2.0</strong> <a href="(W3C – tradução: Professor Bechara) http://www.ilearn.com.br/TR/WCAG20/">(W3C – tradução: Professor Bechara) http://www.ilearn.com.br/TR/WCAG20/</a></td>
+						<td headers="n+h"><strong>Recomendações de acessibilidade para conteúdo Web (WCAG) 2.0</strong> <a href="http://www.ilearn.com.br/TR/WCAG20/">(W3C – tradução: Professor Bechara) http://www.ilearn.com.br/TR/WCAG20/</a></td>
 						<td headers="a_p"></td>
 						<td headers="a_p">B</td>
 						<td headers="a_p">C</td>
@@ -695,12 +696,12 @@
 			<table>
 				<caption>Validadores</caption>
 				<colgroup>
-					<col width="4%">
-					<col width="">
-					<col width="4%">
-					<col width="4%">
-					<col width="4%">
-					<col width="4%">
+					<col>
+					<col>
+					<col>
+					<col>
+					<col>
+					<col>
 				</colgroup>
 				<thead>
 					<tr>
@@ -708,8 +709,7 @@
 						<th id="v_n+h">Nome e <span class="le">hiperlink</span></th>
 						<th id="v_p" colspan="4">Perfis</th>
 					</tr>
-				</thead>
-				<tfoot />
+				</thead>				
 				<tbody>
 					<tr>
 						<td headers="v_numero">46</td>
@@ -737,7 +737,7 @@
 					</tr>
 					<tr>
 						<td headers="v_numero">49</td>
-						<td headers="v_n+h"><strong>ASES – Avaliador e simulador de acessibilidade de sítios</strong> <a href="http://www.governoeletronico.gov.br/acoes-e-projetos/e-MAG/ases-avaliador-e- simulador-de-acessibilidade-sitios">http://www.governoeletronico.gov.br/acoes-e-projetos/e-MAG/ases-avaliador-e- simulador-de-acessibilidade-sitios</a></td>
+						<td headers="v_n+h"><strong>ASES – Avaliador e simulador de acessibilidade de sítios</strong> <a href="http://www.governoeletronico.gov.br/acoes-e-projetos/e-MAG/ases-avaliador-e-simulador-de-acessibilidade-sitios">http://www.governoeletronico.gov.br/acoes-e-projetos/e-MAG/ases-avaliador-e- simulador-de-acessibilidade-sitios</a></td>
 						<td headers="v_p"></td>
 						<td headers="v_p">B</td>
 						<td headers="v_p"></td>
@@ -764,12 +764,12 @@
 			<table>
 				<caption>Softwares e leitores de tela</caption>
 				<colgroup>
-					<col width="4%">
-					<col width="">
-					<col width="4%">
-					<col width="4%">
-					<col width="4%">
-					<col width="4%">
+					<col>
+					<col>
+					<col>
+					<col>
+					<col>
+					<col>
 				</colgroup>
 				<thead>
 					<tr>
@@ -777,8 +777,7 @@
 						<th id="s_n+h">Nome e <span class="le">hiperlink</span></th>
 						<th id="s_p" colspan="4">Perfis</th>
 					</tr>
-				</thead>
-				<tfoot />
+				</thead>				
 				<tbody>
 					<tr>
 						<td headers="s_numero">52</td>
@@ -790,7 +789,7 @@
 					</tr>
 					<tr>
 						<td headers="s_numero">53</td>
-						<td headers="s_n+h"><strong>JAWS for Windows – leitor de telas (tecnologia assistiva) – Windows</strong> <a href="http://www.freedomscientific.com/products/fs/jaws-product- page.asp">http://www.freedomscientific.com/products/fs/jaws-product- page.asp</a></td>
+						<td headers="s_n+h"><strong>JAWS for Windows – leitor de telas (tecnologia assistiva) – Windows</strong> <a href="http://www.freedomscientific.com/products/fs/jaws-product-page.asp">http://www.freedomscientific.com/products/fs/jaws-product-page.asp</a></td>
 						<td headers="s_p"></td>
 						<td headers="s_p"></td>
 						<td headers="s_p"></td>
@@ -844,7 +843,7 @@
 			<li>RENAPI. Acessibilidade Virtual – Informação ao alcance de todos. Disponível em: <a href="http://acessibilidade.bento.ifrs.edu.br/acessibilidade-web.php">http://acessibilidade.bento.ifrs.edu.br/acessibilidade-web.php</a>.</li>
 			<li>Nascimento C. Frase vencedora do concurso “Jornadas de Conhecimento sobre Acessibilidade na Web”, 2007.</li>
 			<li>The Center for Universal Design: The Principles of Universal Design, Version 2.0. Raleigh, NC: North Carolina State University. Disponível em: <a href="http://www.ncsu.edu/ncsu/design/cud/about_ud/udprinciplestext.htm">http://www.ncsu.edu/ncsu/design/cud/about_ud/udprinciplestext.htm</a>.</li>
-			<li>Derivado de W3C Web Content Accessibility Guidelines 1.0 1999; Accessible Environnements: Toward Universal Design por Ronald L. Mace, Graeme J. Hardie e Jaine P. Place, Centro de Design Universal da Faculdade Estadual da Carolina do Norte, EUA, 1996. Disponível em: <a href="http://www.w3.org/TR/WCAG10/">http://www.w3.org/TR/WCAG10/</a> e <a href="http://www.ncsu.edu/ncsu/design/cud/pubs_p/docs/ACC Environments.pdf">http://www.ncsu.edu/ncsu/design/cud/pubs_p/docs/ACC Environments.pdf</a>.</li>
+			<li>Derivado de W3C Web Content Accessibility Guidelines 1.0 1999; Accessible Environnements: Toward Universal Design por Ronald L. Mace, Graeme J. Hardie e Jaine P. Place, Centro de Design Universal da Faculdade Estadual da Carolina do Norte, EUA, 1996. Disponível em: <a href="http://www.w3.org/TR/WCAG10/">http://www.w3.org/TR/WCAG10/</a> e <a href="http://www.ncsu.edu/ncsu/design/cud/pubs_p/docs/ACC%20Environments.pdf">http://www.ncsu.edu/ncsu/design/cud/pubs_p/docs/ACC Environments.pdf</a>.</li>
 			<li>W3C. WAI (Web Accessibility Initiative): Developing a Web Accessibility Business Case for Your Organization: Overview. Disponível em: <a href="http://www.w3.org/WAI/bcase/#intro">http://www.w3.org/WAI/bcase/#intro</a>.</li>
 			<li>W3C. WAI: Stories of Web Users. Disponível em: <a href="http://www.w3.org/WAI/intro/people-use-web/stories">http://www.w3.org/WAI/intro/people-use-web/stories</a>.</li>
 			<li>WCAG 1.0. Recomendações de Acessibilidade para Conteúdo Web (em português de Portugal – traduzido pela Universidade de Trás-os-Montes e Alto Douro). Disponível em: <a href="http://www.utad.pt/wai/wai-pageauth.html">http://www.utad.pt/wai/wai-pageauth.html</a>.</li>
@@ -854,7 +853,7 @@
 		<section class="licenca">
 			<h2>Licença</h2>
 			<p>
-				<img src="../imagens/creative-commons.png" width="20%" alt="Creative Commons">
+				<img src="../imagens/creative-commons.png" alt="Creative Commons" class="creative-commons-ico">
 			</p>
 			<p>
 				Atribuição: uso não comercial 3.0 Brasil
