@@ -1,0 +1,66 @@
+/* line 18, ../sass/partials/high-contrast/_typography.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+address,
+quote,
+blockquote,
+table,
+td,
+tr,
+th,
+thead,
+tbody,
+tfoot,
+span {
+  color: white;
+}
+
+/* line 22, ../sass/partials/high-contrast/_typography.scss */
+a {
+  color: yellow;
+}
+/* line 26, ../sass/partials/high-contrast/_typography.scss */
+a:visited, a:focus {
+  color: #ffff66;
+}
+
+/* line 32, ../sass/partials/high-contrast/_typography.scss */
+table th {
+  color: white;
+}
+
+/* line 3, ../sass/partials/high-contrast/_table.scss */
+table,
+tr,
+td {
+  border: 1px solid #bb946c;
+}
+/* line 6, ../sass/partials/high-contrast/_table.scss */
+table th,
+tr th,
+td th {
+  background: #31bb3e;
+}
+/* line 11, ../sass/partials/high-contrast/_table.scss */
+table th,
+table td,
+tr th,
+tr td,
+td th,
+td td {
+  padding: 10px;
+}
+
+/* line 8, ../sass/high-contrast.scss */
+body {
+  background-color: black;
+}
+
+.p-azul {
+	background: #424242;
+}
