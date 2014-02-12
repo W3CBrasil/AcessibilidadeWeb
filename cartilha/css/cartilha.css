@@ -132,10 +132,10 @@
 	/* estilo para lista ordenada <ol> com parenteses */
 
 	ol.lista-p > li:before {
-	  	display: inline-block;
+	    display: inline-block;
 	    content: ")";
 	    width: 1em;
-	    margin-left: -0.7em;*
+	    margin-left: -0.7em;
 	}
 
 	/* lista ordenada alfabeticamente */
